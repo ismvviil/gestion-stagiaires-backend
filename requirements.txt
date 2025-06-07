@@ -1,0 +1,37 @@
+fastapi==0.110.0
+uvicorn==0.28.0
+sqlalchemy==2.0.28
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+alembic==1.13.1
+pydantic==2.6.4
+pydantic[email]==2.6.4
+pydantic-settings==2.2.1
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.1.2
+
+websockets==12.0
+
+# 🆕 Certificats PDF et QR codes
+qrcode[pil]==7.4.2
+reportlab==4.0.7
+pillow==10.1.0
+
+# 2. Ajouter dans requirements.txt
+jinja2==3.1.2  # Pour les templates email
+email-validator==2.0.0  # Pour la validation email
+
+
+# Nouvelles dépendances pour l'analyse de CV
+
+# Pour l'extraction de texte depuis les PDF
+PyPDF2==3.0.1
+
+# Pour l'extraction de texte depuis les documents Word
+python-docx==0.8.11
+
+# Alternative plus avancée (optionnel)
+# pdfplumber==0.9.0  # Meilleure extraction PDF
+# python-magic==0.4.27  # Détection automatique du type de fichier
+
