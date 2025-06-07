@@ -20,6 +20,7 @@ from app.schemas.evaluation import (
         CertificatPublic,
           EvaluationWithRelations  # 🆕 AJOUT pour vérification publique
 
+
 )
 from app.services.evaluation_service import EvaluationService
 from app.models.candidature import Candidature
